@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksprintcampus=self.webpackChunksprintcampus||[]).push([[7172],{1966:s=>{s.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"default"}')}}]);

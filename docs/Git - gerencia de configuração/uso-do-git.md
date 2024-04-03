@@ -1,4 +1,3 @@
-
 # Esquema de Fluxo de Trabalho Git - Feature Branch Workflow
 
 ## 1. Branch Principal: `main`

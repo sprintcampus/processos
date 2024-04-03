@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksprintcampus=self.webpackChunksprintcampus||[]).push([[378],{5269:s=>{s.exports=JSON.parse('{"label":"docusaurus","permalink":"/processos/blog/tags/docusaurus","allTagsPath":"/processos/blog/tags","count":4,"unlisted":false}')}}]);

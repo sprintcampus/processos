@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksprintcampus=self.webpackChunksprintcampus||[]).push([[5094],{6245:s=>{s.exports=JSON.parse('{"label":"hello","permalink":"/processos/blog/tags/hello","allTagsPath":"/processos/blog/tags","count":2,"unlisted":false}')}}]);

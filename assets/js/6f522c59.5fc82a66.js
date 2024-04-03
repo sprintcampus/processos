@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksprintcampus=self.webpackChunksprintcampus||[]).push([[8769],{1636:s=>{s.exports=JSON.parse('{"permalink":"/processos/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

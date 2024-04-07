@@ -26,4 +26,18 @@ Vamos utilizar esses elementos para criar o nosso mapa do processo
 
 # 2. Fluxo do Processo
 Está é a representação do nosso processo. Vamos explicar passo a passo em seguida.
-![alt text](<../../static/img/Fluxo BPMN.svg>)
+![Visão geral do Fluxo](<img/Fluxo BPMN.svg>)
+
+# 3. O que cada bloco está fazendo
+
+## 3.1 Processo de atividade
+![Processo de atividade](<img/Fluxo-Bpmn-Processo-de-atividade.png>)
+
+## 3.2 Processo de iniciação
+![Iniciação](<img/Fluxo-Bpmn-Iniciação.png>)
+## 3.3 Processo de levantamento de requisitos
+
+![Levantamento de requisitos](<img/Fluxo-Bpmn-levantamento-de-requisitos.png>)
+
+## 3.4 Processo de Desenvolvimento
+![Desenvolvimento](<img/Fluxo-Bpmn-Desenvolvimento.png>)

@@ -28,7 +28,7 @@ Vamos utilizar esses elementos para criar o nosso mapa do processo:
 
 Vamos explicar passo a passo da representação do nosso processo logo abaixo:
 ***
-![Visão geral do Fluxo](img/Inicio%20do%20processo.svg)
+![Visão geral do Fluxo](img/Esquema%20completo%20e%20expandido.svg)
 ***
 
 ## 3. O que cada bloco está fazendo

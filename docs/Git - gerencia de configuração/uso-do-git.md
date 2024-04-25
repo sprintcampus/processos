@@ -1,40 +1,61 @@
 # Esquema de Fluxo de Trabalho Git - Feature Branch Workflow
 
 ## 1. Branch Principal: `main`
-- Contém o código que está atualmente em produção.
+- **Como fazer:** Sempre mantenha a `main` atualizada com o código em produção.
+- **Como fazer (Terminal):** `git checkout main` e `git pull origin main`.
+- **Como fazer (GitHub Desktop):** Selecione a branch `main` no menu superior e clique em "Fetch origin".
+- **Como fazer (GitHub Web):** Acesse o seu repositório, clique em "Branches", selecione `main`.
 
 ## 2. Branch de Desenvolvimento: `develop` (Opcional)
-- Age como um estágio intermediário entre as branches de recursos e a produção.
+- **Como fazer:** Use esta branch como intermediária para estágios antes da produção.
+- **Como fazer (Terminal):** `git checkout -b develop origin/main`.
+- **Como fazer (GitHub Desktop):** Crie a branch `develop` clicando em "Current branch" > "New Branch".
+- **Como fazer (GitHub Web):** No repositório, clique em "Branch: main", digite `develop` e clique em "Create branch".
 
 ## 3. Feature Branches (Branches de Recursos)
-- Crie uma nova branch para cada nova funcionalidade, correção de bug ou experimento a partir da `main` ou `develop`.
-- Nomeie apropriadamente, como `feature/login-social`, `bugfix/correcao-login`, `experiment/nova-ui`.
+- **Como fazer:** Crie uma nova branch para cada funcionalidade ou correção.
+- **Como fazer (Terminal):** `git checkout -b nome-da-feature origin/main`.
+- **Como fazer (GitHub Desktop):** Em "Current branch", clique em "New Branch" e nomeie sua branch.
+- **Como fazer (GitHub Web):** No repositório, clique em "Branch: main", insira o nome da nova branch e crie-a.
 
 ## 4. Commits
-- Faça commits pequenos e frequentes com mensagens claras e descritivas.
-- Siga uma convenção para mensagens de commit.
+- **Como fazer:** Faça commits com mensagens claras.
+- **Como fazer (Terminal):** `git add .` e `git commit -m "descrição do commit"`.
+- **Como fazer (GitHub Desktop):** Adicione mudanças ao stage, escreva sua mensagem e clique em "Commit to branch".
+- **Como fazer (GitHub Web):** Edite arquivos diretamente no GitHub, escreva a mensagem de commit e confirme as alterações.
 
 ## 5. Pull Requests (PRs)
-- Abra um Pull Request da sua branch de recurso para `develop` ou `main` quando estiver pronto.
+- **Como fazer:** Abra um PR quando sua feature estiver pronta.
+- **Como fazer (Terminal):** `git push origin nome-da-feature` e depois crie o PR no GitHub.
+- **Como fazer (GitHub Desktop):** Push para o origin e depois vá para o GitHub para abrir o PR.
+- **Como fazer (GitHub Web):** Clique em "Pull requests" > "New pull request", selecione sua branch e crie o PR.
 
 ## 6. Revisão de Código
-- A equipe revisa o código no PR, sugerindo melhorias e garantindo a qualidade.
+- **Como fazer:** Participe da revisão sugerindo melhorias ou aprovando mudanças.
+- **Onde ir (GitHub Web):** No PR, participe comentando e revisando mudanças.
 
 ## 7. Merge (Fusão)
-- Após a aprovação do PR e a passagem nos testes de CI, faça o merge para `develop` ou `main`.
-- Delete a branch de recurso após o merge.
+- **Como fazer:** Após a aprovação e testes, faça o merge para `develop` ou `main`.
+- **Como fazer (Terminal):** `git checkout main` ou `develop`, e `git merge nome-da-feature`.
+- **Como fazer (GitHub Desktop):** Volte ao GitHub para realizar o merge do PR.
+- **Como fazer (GitHub Web):** Em "Pull requests", abra o PR aprovado e clique em "Merge pull request".
 
 ## 8. Releases (Lançamentos)
-- Faça o merge da `develop` para `main` quando um conjunto de funcionalidades estiver pronto para produção.
-- Use tags para marcar versões de lançamentos no histórico do Git.
+- **Como fazer:** Faça o merge de `develop` para `main` e marque com tags quando apropriado.
+- **Como fazer (Terminal):** `git checkout main` e `git merge develop`; use `git tag -a v1.0 -m "versão 1.0"` e `git push --tags`.
+- **Como fazer (GitHub Web):** Na branch `main`, clique em "Releases" > "New release" e crie a tag.
 
 ## 9. Hotfixes (Correções Urgentes)
-- Crie uma branch `hotfix` a partir da `main` para correções urgentes.
-- Faça o merge para a `main` e `develop` após a conclusão.
+- **Como fazer:** Crie uma branch `hotfix` a partir de `main` para correções urgentes.
+- **Como fazer (Terminal):** `git checkout -b hotfix/issue main`.
+- **Como fazer (GitHub Desktop):** Selecione `main`, clique em "New Branch" e nomeie-a como `hotfix/`.
+- **Como fazer (GitHub Web):** Como anteriormente, crie a branch diretamente no GitHub.
 
 ## 10. Manutenção
-- Mantenha as branches de recursos atualizadas com a `main` ou `develop` para minimizar conflitos de merge.
-
+- **Como fazer:** Mantenha suas branches de recursos atualizadas com `main` ou `develop`.
+- **Como fazer (Terminal):** Regularmente faça `git pull origin main` ou `git pull origin develop`.
+- **Como fazer (GitHub Desktop):** Faça rebase de sua branch de recurso com `main` ou `develop`.
+- **Como fazer (GitHub Web):** Use a funcionalidade de rebase disponível nas configurações de PR se necessário.
 
 ## Tipo e descrição 💡
 

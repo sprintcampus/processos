@@ -10,7 +10,7 @@ Oferecer uma visão detalhada da implementação de componentes específicos.
 2. **Descrever a Implementação**: Use diagramas UML, fluxogramas, ou trechos de código para descrever a implementação do componente selecionado.
 
 
-geralmente na maoria dos casos não são utilizados diagramas  UML para representar classes e a estrutura do proprio codigo pois ela pode mudar bastante com o passar do tempo, e manter uma uml atualizada se torna algo  bastante complexo em questão de tempo
+é importante lembrar que geralmente na maoria dos casos não são utilizados diagramas  UML para representar classes e a estrutura do proprio codigo pois ela pode mudar bastante com o passar do tempo, e manter uma uml atualizada se torna algo complexo e caro.
 
 ## Dicas para Diagramação
 

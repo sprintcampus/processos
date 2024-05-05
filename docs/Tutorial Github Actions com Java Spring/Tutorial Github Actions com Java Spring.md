@@ -1,7 +1,9 @@
 # Tutorial: Github Actions com Java Spring
 
 <aside>
-<img src="https://www.notion.so/icons/chemistry_gray.svg" alt="https://www.notion.so/icons/chemistry_gray.svg" width="40px" /> O **Github Actions** é um serviço de automação integrado ao GitHub, permitindo automatizar fluxos de trabalho diretamente em seu repositório. Com ele, é possível criar fluxos customizados para tarefas como construção, teste e implantação de aplicativos. Ao responder a eventos específicos, como push de código ou criação de pull requests, o GitHub Actions executa fluxos de trabalho compostos por diversas etapas.
+<img src="https://www.notion.so/icons/chemistry_gray.svg" alt="https://www.notion.so/icons/chemistry_gray.svg" width="40px" /> 
+
+O **Github Actions** é um serviço de automação integrado ao GitHub, permitindo automatizar fluxos de trabalho diretamente em seu repositório. Com ele, é possível criar fluxos customizados para tarefas como construção, teste e implantação de aplicativos. Ao responder a eventos específicos, como push de código ou criação de pull requests, o GitHub Actions executa fluxos de trabalho compostos por diversas etapas.
 
 Agora que compreendemos o conceito por trás do GitHub Actions, vamos explorar como integrá-lo com o framework Java Spring para automatizar processos em nossos projetos.
 
@@ -25,9 +27,9 @@ Para começar nosso tutorial sobre Github Actions com Java Spring, o primeiro pa
 
 Abaixo pode ser visualizado a tela das configurações finais:
 
-![Captura de tela 2024-04-01 035527.png](Tutorial%20Github%20Actions%20com%20Java%20Spring%207999b1c153cd4b74bfe18d37d3e552b9/Captura_de_tela_2024-04-01_035527.png)
+![Captura de tela 2024-04-01 035527.png](Captura_de_tela_2024-04-01_035527.png)
 
-![imagem_2024-04-01_035325101.png](Tutorial%20Github%20Actions%20com%20Java%20Spring%207999b1c153cd4b74bfe18d37d3e552b9/imagem_2024-04-01_035325101.png)
+![imagem_2024-04-01_035325101.png](imagem_2024-04-01_035325101.png)
 
   
 
@@ -74,15 +76,15 @@ Agora que temos nosso projeto no GitHub, é hora de adicionar o GitHub Actions p
 2. Você será apresentado à página de "GitHub Actions". Aqui você verá várias opções de fluxos de trabalho predefinidos que você pode usar. Como nosso projeto é em Java, vamos procurar por ações relacionadas ao Java. No campo de busca, digite "Java" e pressione Enter.
 3. Você verá uma lista de ações relacionadas ao Java. Escolha a ação que melhor se adeque às suas necessidades. Por exemplo, você pode escolher um fluxo de trabalho que compila e testa seu projeto Java com Maven ou Gradle. No caso deste projeto, nós utilizaremos o Java com Maven.
 
-![Captura de tela 2024-04-20 115405.png](Tutorial%20Github%20Actions%20com%20Java%20Spring%207999b1c153cd4b74bfe18d37d3e552b9/Captura_de_tela_2024-04-20_115405.png)
+![Captura de tela 2024-04-20 115405.png](Captura_de_tela_2024-04-20_115405.png)
 
 1. Clique na ação escolhida. Você será levado a uma nova página com detalhes sobre a ação. Aqui, você pode ver uma visão geral da ação, bem como as instruções passo a passo sobre como configurá-la.
 
-![Captura de tela 2024-04-20 115713.png](Tutorial%20Github%20Actions%20com%20Java%20Spring%207999b1c153cd4b74bfe18d37d3e552b9/Captura_de_tela_2024-04-20_115713.png)
+![Captura de tela 2024-04-20 115713.png](Captura_de_tela_2024-04-20_115713.png)
 
 1. Você irá remover na parte debaixo do código que é opcional, pois é responsável por enviar gráficos para o github para melhorar a qualidade do “dependabot”, mas ele não funciona fazendo com que o Action quebre. Para evitar isso, é recomendado apagar ele.
 
-![Captura de tela 2024-04-20 120223.png](Tutorial%20Github%20Actions%20com%20Java%20Spring%207999b1c153cd4b74bfe18d37d3e552b9/Captura_de_tela_2024-04-20_120223.png)
+![Captura de tela 2024-04-20 120223.png](Captura_de_tela_2024-04-20_120223.png)
 
 1. Agora é só apertar no Commit para salvar as mudanças.
 
